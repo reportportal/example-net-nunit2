@@ -51,11 +51,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="ReportPortal.NUnit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ReportPortal.NUnit.1.2.1-beta-4\lib\ReportPortal.NUnit.dll</HintPath>
+      <HintPath>..\packages\ReportPortal.NUnit.1.2.1-beta-5\lib\ReportPortal.NUnit.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ReportPortal.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ReportPortal.Shared.1.1.1\lib\ReportPortal.Shared.dll</HintPath>
+      <HintPath>..\packages\ReportPortal.Shared.1.2.1\lib\ReportPortal.Shared.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="RestSharp, Version=105.2.1.0, Culture=neutral, processorArchitecture=MSIL">
