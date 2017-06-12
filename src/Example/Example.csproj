@@ -51,7 +51,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="ReportPortal.NUnit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ReportPortal.NUnit.1.2.1-beta-7\lib\ReportPortal.NUnit.dll</HintPath>
+      <HintPath>..\packages\ReportPortal.NUnit2.1.2.1-beta-8\lib\ReportPortal.NUnit.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ReportPortal.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -87,9 +87,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ReportPortalCustomization\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
