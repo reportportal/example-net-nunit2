@@ -1,4 +1,6 @@
 ﻿using NUnit.Framework;
+using ReportPortal.Client.Models;
+using ReportPortal.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +17,7 @@ namespace Example.Tests
         [Test]
         public void Test1()
         {
+            Bridge.LogMessage(LogLevel.Info, "this is my file {rp#file#dog.png}");
             System.Threading.Thread.Sleep(3000);
         }
 
